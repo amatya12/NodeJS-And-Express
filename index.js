@@ -10,5 +10,6 @@ app.use(require('./Routes/index.route'))
 
 
 
+const port = process.env.PORT || 1337;
 
-app.listen('1337');
+app.listen(port);
